@@ -9,7 +9,7 @@
 > > uv run main.py
 > data=array([[6, 0],
 >        [1, 0]]), order='C'
-> 
+>
 > > cargo run
 > [6, 0, 0, 0, 0, 0, 0, 0]
 > Parsed value: 6
@@ -26,7 +26,7 @@
 > > uv run main.py
 > data=array([[2, 4],
 >        [0, 9]]), order='F'
-> 
+>
 > > cargo run
 > [2, 0, 0, 0, 0, 0, 0, 0]
 > Parsed value: 2
