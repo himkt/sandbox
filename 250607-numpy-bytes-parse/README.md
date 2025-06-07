@@ -47,3 +47,4 @@
 > ```
 
 * :link: https://numpy.org/doc/2.2/reference/generated/numpy.ndarray.tobytes.html
+* :link: https://numpy.org/doc/2.2/reference/generated/numpy.dtype.byteorder.html
