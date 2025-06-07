@@ -46,5 +46,27 @@
 > little
 > ```
 
+> [!NOTE]
+> When a specified endian is the same as builtin, `.byteorder` would be '=' instead of '<' or '>'.
+>
+> ```sh
+> >>> numpy.dtype("i4")
+> dtype('int32')
+> >>> numpy.dtype("i4").byteorder
+> '='
+> >>> numpy.dtype("<i4")
+> dtype('int32')
+> >>> numpy.dtype("<i4").byteorder
+> '='
+> >>> numpy.dtype(">i4")
+> dtype('>i4')
+> >>> numpy.dtype(">i4").byteorder
+> '>'
+> >>> numpy.dtype(numpy.int32)
+> dtype('int32')
+> >>> numpy.dtype(numpy.int32).byteorder
+> '='
+> ```
+
 * :link: https://numpy.org/doc/2.2/reference/generated/numpy.ndarray.tobytes.html
 * :link: https://numpy.org/doc/2.2/reference/generated/numpy.dtype.byteorder.html
