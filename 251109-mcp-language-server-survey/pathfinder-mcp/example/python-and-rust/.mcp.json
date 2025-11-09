@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "pathfinder-python": {
+      "command": "/Users/himkt/work/himkt/sandbox/251109-mcp-language-server-survey/pathfinder-mcp/target/release/pathfinder-mcp",
+      "args": [
+        "-w", ".",
+        "-e", "py",
+        "-e", "pyi",
+        "-s", "uv", "run", "pyright-langserver", "--", "--stdio"
+      ],
+      "env": {
+        "LOG_LEVEL": "debug"
+      }
+    },
+    "pathfinder-rust": {
+      "command": "/Users/himkt/work/himkt/sandbox/251109-mcp-language-server-survey/pathfinder-mcp/target/release/pathfinder-mcp",
+      "args": [
+        "-w", ".",
+        "-e", "rs",
+        "-s", "rust-analyzer"
+      ],
+      "env": {
+        "LOG_LEVEL": "debug"
+      }
+    }
+  }
+}
