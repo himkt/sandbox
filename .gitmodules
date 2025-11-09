@@ -1,0 +1,6 @@
+[submodule "251109-mcp-language-server-survey/mcp-language-server"]
+	path = 251109-mcp-language-server-survey/mcp-language-server
+	url = git@github.com:isaacphi/mcp-language-server.git
+[submodule "251109-mcp-language-server-survey/rust-sdk"]
+	path = 251109-mcp-language-server-survey/rust-sdk
+	url = git@github.com:modelcontextprotocol/rust-sdk.git
